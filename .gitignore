@@ -1,0 +1,59 @@
+# Env && Config related
+/.docker-sync
+docker-sync.yml
+docker-compose.yml
+.env.ini
+
+.idea/
+.DS_Store
+vendor/*
+
+runtime/*
+!runtime/qrcode/bg.jpg
+!runtime/fonts
+
+# compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+# Logs and databases #
+######################
+npm-debug.log
+yarn-error.log
+*.log
+*.logs
+*.sqlite
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+Thumbs.db
+.svn
+*.bak
+ehthumbs.db
+Runtime
+*.swp
+*.swo
+tags
+.user.ini
