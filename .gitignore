@@ -6,6 +6,7 @@ docker-compose.yml
 
 .idea/
 .DS_Store
+go.sum
 vendor/*
 
 runtime/*
