@@ -2,6 +2,6 @@ package conf
 
 import "fmt"
 
-func main() {
+func Vims() {
 	fmt.Println("vim-go")
 }
