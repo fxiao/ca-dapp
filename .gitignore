@@ -58,3 +58,4 @@ Runtime
 *.swo
 tags
 .user.ini
+.env.ini
