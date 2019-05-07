@@ -59,3 +59,4 @@ Runtime
 tags
 .user.ini
 .env.ini
+.go.sum
