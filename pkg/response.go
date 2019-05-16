@@ -13,6 +13,9 @@ type defaultResponse struct {
 	Message    string `json:"message"`
 }
 
+// pkg.Response(404)
+// pkg.Response(411, "没有权限")
+// pkg.Response(200, &St{})
 func (g *Gin) Response(args ...interface{}) {
 
 	statusCode := 200
